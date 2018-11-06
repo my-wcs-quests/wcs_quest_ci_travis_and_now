@@ -6,7 +6,7 @@ const api = require('./api/router');
 const { API_ROOT_PATH } = require('./api/router');
 
 const app = express();
-const PATH_TO_STATIC_DIR = 'client/build';
+const PATH_TO_STATIC_DIR = 'client/public';
 
 app
   .use(bodyParser.urlencoded({ extended: true }))
